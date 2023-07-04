@@ -1,4 +1,4 @@
-/* Reset CSS */
+/* Reset CSS already exists in Bootstrap */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -103,21 +103,10 @@ table {
     position: relative;
 }
 
-.top {
-    height: 100vh;
-    width: 100vw;
-}
-
-.container {
-    margin: 0 375px;
-}
 
 /* Header */
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 45px;
     align-items: center;
 }
 
@@ -143,29 +132,27 @@ table {
     color: #F25822;
 }
 
-.nav {
-    display: flex;
-    align-items: center;
-}
-
-.nav__menu {
-    display: flex;
-}
-
-.nav__item {
+.nav-item {
     margin-right: 35px;
     font-size: 14px;
     font-family: Gilroy-SemiBold, serif;
     font-weight: 400;
     line-height: normal;
+    list-style-type: none;
 }
 
-.nav__item-active {
+.nav-item-active {
     color: #F25822;
 }
 
 .nav__item a {
     text-decoration: none;
+    color: #000000;
+}
+
+.nav__item a:hover {
+    text-decoration: none;
+    color: #000000;
 }
 
 .nav__button {
@@ -179,8 +166,10 @@ table {
     display: flex;
 }
 
-.top__info {
-    margin-top: 150px;
+@media only screen and (min-width: 200px) {
+    .top__info {
+        margin-top: 15px;
+    }
 }
 
 .info__title {
@@ -233,4 +222,6 @@ table {
     justify-content: space-between;
 }
 
+
+/* Media Query */
 
