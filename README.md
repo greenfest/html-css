@@ -10,3 +10,5 @@ Here are the links to the result on GitHub Pages:
 [- Lesson 8](https://greenfest.github.io/html-css/lesson8/index.html)
 
 [- Lesson 11](https://greenfest.github.io/html-css/lesson11/index.html)
+
+[- Lesson 16](https://greenfest.github.io/html-css/lesson16/index.html)
